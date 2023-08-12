@@ -52,11 +52,6 @@ int main()
 
     ConvolutionTest();
 
-    for (int dep = 1; dep <= log2(8); ++dep)
-    {
-        int m = 1 << dep;		//合并后序列长度 = 2 ^ dep
-    }
-
     return 0;
 }
 
